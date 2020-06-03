@@ -1,0 +1,3 @@
+FROM snehil0801/tomcat01
+ADD myindex.html /usr/local/tomcat/webapps/myapp/myindex.html
+CMD ["catalina.sh", "run"]
